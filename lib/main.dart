@@ -136,8 +136,6 @@ class HomePage extends StatelessWidget {
                           Icons.check_circle,
                           color: Colors.green,
                           size: 24.0,
-                          semanticLabel:
-                              'Text to announce in accessibility modes',
                         ),
                         SizedBox(height: 50),
                         Text(
@@ -157,8 +155,6 @@ class HomePage extends StatelessWidget {
                           Icons.check_circle_outline,
                           color: Colors.orange,
                           size: 24.0,
-                          semanticLabel:
-                              'Text to announce in accessibility modes',
                         ),
                         SizedBox(height: 50),
                         Text(
@@ -179,8 +175,6 @@ class HomePage extends StatelessWidget {
                           Icons.check_circle_outline,
                           color: Colors.red,
                           size: 24.0,
-                          semanticLabel:
-                              'Text to announce in accessibility modes',
                         ),
                         SizedBox(height: 50),
                         Text(
@@ -263,24 +257,6 @@ class HomePage extends StatelessWidget {
         ),
       ),
     );
-
-    // return MaterialApp(
-    //   home: Scaffold(
-    //     appBar: AppBar(centerTitle: true, title: Text('Home')),
-    //     backgroundColor: const Color.fromARGB(255, 177, 208, 255),
-    //     body: Column(
-    //       crossAxisAlignment: CrossAxisAlignment.center,
-
-    //       children: <Widget>[
-    //         Text('Welocme Back', style: TextStyle(fontSize: 30)),
-    //         Text(
-    //           'here\'s what\'s happening today:',
-    //           style: TextStyle(fontSize: 30),
-    //         ),
-    //       ],
-    //     ),
-    //   ),
-    // );
   }
 }
 
